@@ -1,0 +1,62 @@
+h1
+{font-size: 32px; font-weight: normal; font-family: poiret; text-align: center;}
+
+h2
+{font-size: 18px; font-weight: normal; font-family: permanent; text-align: center;}
+
+
+p 
+{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+font-size: 16px;
+text-align: justify; 
+}
+
+.muj-img {   
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%}
+
+.moje-ico {   
+    border-radius: 50%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    }
+
+.text {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+}
+
+.center-img {
+    text-align: center;
+}
+
+a.menici {background-image: url(FB-ico.png)}
+a.menici:hover {background-image: url(FB-ico3.png)}
+
+.odkaz {
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@font-face {
+    font-family: poiret;
+    src: url('Poiret_One/PoiretOne-Regular.ttf');
+    }
+
+@font-face {
+    font-family: permanent;
+    src: url('Permanent_Marker/PermanentMarker-Regular.ttf');
+        }
+
+.pozadi {
+background-image: url('pozadi.png')}
+
+a:hover    { color: #ebcef0}
+a{color: #a685ab}
